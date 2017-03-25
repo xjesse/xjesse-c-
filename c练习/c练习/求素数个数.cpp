@@ -15,6 +15,23 @@ for( i=2;i<m;i++){
 
 void primeCal(){
 
+	
+	for (int i=0;i<300;i++){
+		if(isP(a[i])){
+		Ave1+=a[i];
+		count++;
+
+		}
+		else
+		{
+		Ave2+=a[i];
+		}
+
+	                 }
+
+	Ave1=Ave1/count;
+	Ave2=Ave2/(300-count);
+
 
 }
 
@@ -44,6 +61,9 @@ int main(){//与c不同的地方
  //primeCal();
  //Wdata();
  printf("hello world");
+ Rdata();//读取
+ primeCal();
+ Wdata();//写入
 
  system("pause");//与c不同的地方
  return 0;//与c不同的地方
