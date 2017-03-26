@@ -60,6 +60,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="排序.cpp" />
     <ClCompile Include="求素数个数.cpp" />
     <ClCompile Include="统计字符串个数.cpp" />
   </ItemGroup>

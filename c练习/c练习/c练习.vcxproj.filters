@@ -21,5 +21,8 @@
     <ClCompile Include="统计字符串个数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
